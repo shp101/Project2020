@@ -28,6 +28,13 @@ ul li a {
     height: 300px;
     padding: 15px;
     background-color: rgb(104,104,175);
+    text-align: center;
+}
+.article-bg2 {
+    height: 550px;
+    padding: 15px;
+    background-color: rgb(104, 175, 113);
+    text-align: center;
 }
 .box1{
     display: inline-block;
@@ -57,4 +64,28 @@ ul li a {
     background-color: brown;
     border: 10px solid black;
     box-shadow: 10px 10px 5px 5px black;
+}
+.img-size1 {
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+    border-radius: 15px;
+}
+.img-size2 {
+    width: 250px;
+    height: 100px;
+    margin: 25px;
+    border-radius: 15px;
+}
+.b-radius1 {
+    border-radius: 10%;
+}
+.b-radius2 {
+    border-radius: 25%;
+}
+.b-radius3 {
+    border-radius: 50%;
+}
+.b-radius4 {
+    border-radius: 100%;
 }
