@@ -19,6 +19,7 @@ ul li {
 }
 ul li a {
     color: rgb(255,255,255);
+    font-family: 'Nanum Pen Script', cursive;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
@@ -31,9 +32,27 @@ ul li a {
     text-align: center;
 }
 .article-bg2 {
-    height: 550px;
+    height: 650px;
     padding: 15px;
     background-color: rgb(104, 175, 113);
+    text-align: center;
+}
+.article-bg3 {
+    height: 450px;
+    padding: 15px;
+    background-color: rgb(121, 82, 0);
+    text-align: center;
+}
+.article-bg4 {
+    height: 400px;
+    padding: 15px;
+    background-color: rgb(104, 104, 175);
+    text-align: center;
+}
+.article-bg5 {
+    height: 400px;
+    padding: 15px;
+    background-color: rgb(0, 129, 65);
     text-align: center;
 }
 .box1{
@@ -88,4 +107,45 @@ ul li a {
 }
 .b-radius4 {
     border-radius: 100%;
+}
+
+
+thead, tfoot{
+    background-color: #3f87a6;
+    color: #fff;
+}
+tbody{
+    background-color: #e4f0f5;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+}
+td, th{
+    border: 1px solid rgb(190,190,190);
+}
+td{
+    text-align: center;
+}
+caption{
+    caption-side: bottom;
+}
+
+
+.grid-container{
+    background-color: rgb(207,42,42);
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.item1{
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+.grid-item{
+    background-color: rgb(255, 255,255);
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
 }
