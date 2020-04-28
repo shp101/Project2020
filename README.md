@@ -13,4 +13,5 @@ index.html 생성
  > table tag 연습<br>
  ## 04 28일 테이블 태그연습
  > 메뉴에 웹 폰트 적용<br>
+ CSS 그리드 연습<br>
  
