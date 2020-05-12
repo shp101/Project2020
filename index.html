@@ -13,16 +13,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header><h1 class="Main-title">박세훈의 홈페이지</h1></header>
-    <nav>메뉴 영역 
+    <header class="full-bg">
+        <div class="container">
+            <div class="header-title">
+                박세훈의 홈페이지
+                <p class="sub-header-title">그냥 홈페이지 만들기</p>
+            </div>
+            <div>
+                <a href="#" class="ghost-button">너무</a>
+                <a href="#" class="ghost-button">어려워</a>
+            </div>
+        </div>
+    </header>
+    <nav>
         <ul>
-        <li class="logo">박세훈</li>
-        <li><a href="#">메뉴1</a></li>
-        <li><a href="#">메뉴2</a></li>
-        <li><a href="#">메뉴3</a></li>
+            <li class="logo">박세훈</li>
+            <li><a href="#">바로가기</a>
+                <ul>
+                    <li><a href="#box!!">박스모델</a></li>
+                    <li><a href="#multi!!">멀티미디어</a></li>
+                    <li><a href="#audio!!">오디오태그</a></li>
+                    <li><a href="#youtube!!">유튜브 동영상 삽입</a></li>
+                    <li><a href="#table!!">테이블 연습</a></li>
+                    <li><a href="#grid!!">CSS GRID</a></li>
+                </ul>
+            </li>
+            <li><a href="#">메뉴1</a></li>
+            <li><a href="#">메뉴2</a></li>
+            <li><a href="#">메뉴3</a></li>
         </ul>
     </nav>
-    <article class="article-bg1">
+    <article class="article-bg1" id="box!!">
         <h1>4월5일 박스모델 연습</h1>
         <section>
                 <div class="box1">박스1</div>
@@ -30,7 +51,7 @@
                 <div class="box3">박스3</div>
         </section>
     </article>
-    <article class="article-bg2">
+    <article class="article-bg2" id="multi!!">
         <h1>4 14 일 멀티미디어 태그 연습</h1><br>
         <h2>img tag 연습</h2>
         <section>
@@ -48,7 +69,7 @@
             <img class="img-size2 b-radius4" src="./images/i1.jpg" alt="바이올린">
         </section>
     </article>
-    <article class="article-bg3">
+    <article class="article-bg3" id="audio!!">
         <h2>오디오태그</h2>
         <section>
         <audio controls>
@@ -57,16 +78,16 @@
         </audio>
         </section>
     </article>
-    <article class="article-bg4">
+    <article class="article-bg4" id="youtube!!">
         <h2>유튜브 동영상 삽입 연습</h2>
         <section>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/3AKPaq0IaDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
     </article>
-    <article class="article-bg5">
+    <article class="article-bg5" id="table!!">
         <h1>4 20 테이블 연습</h1>
         <section>
-    <table>
+    <table class="table">
         <caption>프런트앤드 개발자</caption>
         <thead>
             <tr>
@@ -97,7 +118,7 @@
     </table>
 </section>
     </article>
-    <article class="article-bg6">
+    <article class="article-bg6" id="grid!!">
         <section class="section-title"><h2>grid 연습</h2></section>
         <section class="section-left">left section</section>
         <section class="section-right">right section</section>
@@ -121,7 +142,6 @@
     </article>
     <!-- CSS Grid 연습 -->
 
-    <aside>어사이드 영역</aside>
-    <footer>여기는 바닥 영역</footer>
+    <footer>Copyright © 2020 05 12 shp webpage.</footer>
 </body>
 </html>
