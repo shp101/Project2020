@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom05</title>
+    <script>
+        window.onload =function(){
+            var output = '';
+            for(var i = 1; i<256; i++){
+                output += '<div></div>';
+            }
+            document.body.innerHTML = output;
+            var divs = document.querySelectorAll('div');
+            for(var i=divs.length;i>0;i--){
+                var div = divs[divs.length-i];
+                div.style.height = '2px';
+                div.style.backgroundColor = 'rgb('+i+','+i+','+i+')';
+            }
+            // for(var i=0;i<divs.length;i++){
+            //     var div = divs[i];
+            //     div.style.height = '2px';
+            //     div.style.backgroundColor = 'rgb('+i+','+i+','+i+')';
+            // }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

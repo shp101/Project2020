@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom08</title>
+    <script>
+        window.onload =function(){
+            //문서 객체 선택
+            var clock = document.getElementById('clock');
+            //1초마다 함수를 실행
+            setInterval(function(){
+                var now = new Date();
+                clock.innerHTML = now.toString();
+            },1000);
+            //별찍기
+            document.getElementById('button').onclick = function(){
+            this.textContent = this.textContent + '☆';
+            }
+            //이벤트 제거
+            var bb = document.getElementById('b2');
+            bb.onclick = function(){
+                return false;
+            }
+        }
+        function buttonClick(){
+            alert('Cllcked');
+        }
+    </script>
+</head>
+<body>
+    <h1 id="clock"></h1>
+    <button onclick="buttonClick()">CLICK BUTTON</button>
+    <button id="button">별 찍기</button>
+    <a href="https://www.naver.com/" id="b2">123123</a>
+</body>
+</html>
