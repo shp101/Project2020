@@ -1,5 +1,8 @@
 # Project2020 - 박세훈
 
+## 06 02일 Jquery
+ > Jquery 적용<br>
+
 ## 05 26일 BootStrap
  > javaScript 적용<br>
 
